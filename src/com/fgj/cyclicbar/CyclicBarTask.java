@@ -27,7 +27,7 @@ public class CyclicBarTask implements Runnable {
 			int col = room - 1;
 			try {
 				long start = System.currentTimeMillis();
-				System.out.println(MessageFormat.format("{0}进入第{2}个房间，房间内怪物总数:{3}，冲鸭...",
+				System.out.println(MessageFormat.format("{0}进入第{1}个房间，房间内怪物总数:{2}，冲鸭...",
 					Thread.currentThread().getName(), room, region[row][col]));
 				//模拟打怪，怪物数量越多，休眠时间越长
 				Thread.sleep(region[row][col] * 100);

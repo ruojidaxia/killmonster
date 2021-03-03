@@ -6,7 +6,7 @@ import java.util.concurrent.CyclicBarrier;
 
 public class CyclicBarRunner {
 	/**
-	 * 模拟CyclicBarrier并行处理二维数组，每一个线程处理一行数据
+	 * 使用CyclicBarrier模拟玩家刷副本打怪
 	 *
 	 * @param args
 	 */
